@@ -50,7 +50,7 @@ const MessageInput = ({conversation = null}) => {
         return
       }
           if(newMessage.trim() === "" && chosenFiles.length === 0) {
-            setInputErrorMessage("Please provide a message or upload attachments.")
+            setInputErrorMessage("Por favor coloque uma mensagem ou anexe arquivos.")
 
             setTimeout(() => {
              setInputErrorMessage("")

@@ -2,6 +2,7 @@
 
 import GroupItem from '@/Components/App/GroupItem';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
+import { Head } from '@inertiajs/react';
 
 
  function Grupos({ groups }) {
@@ -11,7 +12,7 @@ import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
     return (
      
 <div className="overflow-auto">
- 
+<Head title="Equipes" />
         {groups.data.length > 0 && (
          <>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 m-5 ">

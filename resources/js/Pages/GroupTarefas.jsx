@@ -6,7 +6,7 @@ import { useEffect,  useState } from 'react';
 import ConversationHeader from '@/Components/App/ConversationHeader';
 import {  BookmarkIcon, CheckCircleIcon } from '@heroicons/react/24/solid';
 import { CalendarIcon } from '@heroicons/react/24/solid';
-import { Link, usePage } from '@inertiajs/react';
+import { Head, Link, usePage } from '@inertiajs/react';
 import EnviarTarefa from '@/Components/App/EnviarTarefa';
 import PrimaryButton from '@/Components/PrimaryButton';
 import TarefaModal from '@/Components/App/TarefaModal';
@@ -44,6 +44,7 @@ import EnviosTarefa from '@/Components/App/EnviosTarefa';
 
     return (
         <>
+        <Head title="Tarefas" />
         <ConversationHeader 
                         selectedConversation={selectedConversation}
                     />

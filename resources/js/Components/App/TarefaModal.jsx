@@ -144,7 +144,7 @@ export default function TarefaModal({ group, show = false, onClose = () => {} })
                 <div className="mt-6 flex justify-end">
                     <SecondaryButton onClick={closeModal}>Cancel</SecondaryButton>
                     <PrimaryButton className="ms-3" disabled={processing}>
-                        Create
+                        Criar
                     </PrimaryButton>
                 </div>
             </form>
