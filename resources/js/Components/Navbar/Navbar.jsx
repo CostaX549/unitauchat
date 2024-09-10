@@ -7,10 +7,10 @@ import { Link } from '@inertiajs/react';
 const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">O que é o UnitauChat?</a></p>
-    <p><a href="#possibility">Equipes e Alunos</a></p>
-    <p><a href="#features">Features</a></p>
-    <p><a href="#blog">Tarefas</a></p>
+    <p><a href="#wgpt3">Plataforma</a></p>
+    <p><a href="#unitauchat">Qualidades</a></p>
+    <p><a href="#possibility">Possibilidades</a></p>
+    <p><a href="#blog">Blog</a></p>
   </>
 )
 
